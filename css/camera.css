@@ -272,10 +272,10 @@
 	position: absolute;
 	text-align: center;
 	font-size: 0.9rem;
-	line-height: 50px;
+	line-height: 40px;
 	left: 0;
 	right: 0;
-	top: 35%;
+	top: 40%;
 	color: #fff;
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
@@ -285,13 +285,13 @@
 
 .caption .price span {
 	display: block;
-	font-size: 2.4rem;
-	line-height: 48px;
+	font-size: 2.3rem;
+	line-height: 40px;
 	margin-top: -4px;
 }
 
 .caption a {
-	margin-top: 30px;
+	margin-top: 15px;
 	font: 18px/20px 'Open Sans', sans-serif;
 	color: #fff;
 	background-color: #FF4D4D;
@@ -307,7 +307,7 @@
 }
 
 .caption h2{
-	font-size: 2.9rem;
+	font-size: 2.7rem;
 	font-family: canada-type-gibson, sans-serif !important;
 	margin-bottom: 0px !important;
 	/* margin-top: 10px; */
@@ -315,7 +315,7 @@
 }
 
 .caption a:hover {
-	color: white;
+	color: #a70404;
 	background-color: #FFB3B3;
 	background-position: 0 -100px;
 }
