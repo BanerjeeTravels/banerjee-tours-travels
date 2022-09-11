@@ -103,19 +103,19 @@
 	text-decoration: none;
 }
 .camera_loader {
-      top: 50vh;
-      left: 50%;
-      background: #fff url(../images/camera-loader.gif) no-repeat center;
-      background: rgba(255, 255, 255, 0.9) url(../images/camera-loader.gif) no-repeat center;
-      border: 1px solid #ffffff;
-      border-radius: 18px;
-      height: 36px;
-      overflow: hidden;
-      position: absolute;
-      margin: -10px 0 0 -10px;
-      width: 36px;
-      z-index: 3;
-      transform: translate(-50%, -50%);
+	top: 50vh;
+	left: 50%;
+    background: #fff url(../images/camera-loader.gif) no-repeat center;
+	background: rgba(255, 255, 255, 0.9) url(../images/camera-loader.gif) no-repeat center;
+	border: 1px solid #ffffff;
+	border-radius: 18px;
+	height: 36px;
+	overflow: hidden;
+	position: absolute;
+	margin: -10px 0 0 -10px;
+	width: 36px;
+	z-index: 3;
+	transform: translate(-50%, -50%);
 }
 
 .camera_nav_cont {
@@ -272,7 +272,7 @@
 
 	position: absolute;
 	text-align: center;
-	font-size: 0.9rem;
+	font-size: 1rem;
 	line-height: 40px;
 	left: 0;
 	right: 0;
@@ -308,7 +308,7 @@
 }
 
 .caption h2{
-	font-size: 2.7rem;
+	font-size: 2.5rem;
 	font-family: canada-type-gibson, sans-serif !important;
 	margin-bottom: 0px !important;
 	/* margin-top: 10px; */
@@ -495,13 +495,20 @@
 	}
   }
 
-  .glow {
+  .glow, .glow2 {
 	font-size: 80px;
 	color: #fff;
 	text-align: center;
 	-webkit-animation: glow 1s ease-in-out infinite alternate;
 	-moz-animation: glow 1s ease-in-out infinite alternate;
 	animation: glow 1s ease-in-out infinite alternate;
+  }
+
+  .glow2 {
+	font-size: 1.5rem !important;
+	line-height: 1.5rem !important;
+	font-weight: 600;
+	color: #fbcdd4;
   }
   
   @keyframes glow {
