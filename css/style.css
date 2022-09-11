@@ -670,7 +670,7 @@ section .title::after{
     flex-direction: column;
     flex-wrap: wrap;
 
-    border: var(--color-tertiary) 1px solid;
+    border: #FF4D4D 1px solid;
     border-radius: 10px;
 }
 .ratings .content-ratings p
