@@ -4,9 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Banerjee Tours & Travels</title>
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
-	
-     <style>
+
+    <style>
         .camera_loader {
             top: 50vh;
             left: 50%;
@@ -22,13 +21,12 @@
             z-index: 3;
             transform: translate(-50%, -50%);
         }
-	.slide_wrapper .camera_prev>span, .slide_wrapper .camera_next>span 
+        .slide_wrapper .camera_prev>span, .slide_wrapper .camera_next>span 
         {
             top: 50vh;
             transform: translateY(-50%);
         }
-     </style>
-	
+    </style>
     <!-- CSS style sheets -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/camera.css">
@@ -65,6 +63,7 @@
             <ul class="menu">
                 <li><a href="#home" class="menu-btn">Home</a></li>
                 <li><a href="#book" class="menu-btn">Book</a></li>
+                <li><a href="#ratings" class="menu-btn">local</a></li>
                 <li><a href="#gallery" class="menu-btn">Gallery</a></li>
                 <li><a href="#services" class="menu-btn">Packages</a></li>
                 <!-- <li><a href="#ratings" class="menu-btn">Review</a></li> -->
@@ -113,13 +112,23 @@
     </section> -->
     <div class="slider_wrapper" id="home">
         <div id="camera_wrap" class="">
+            <div data-src="images/burdwan.jpeg" style="background: no-repeat center; background-size: cover;">
+                <div class="caption fadeIn">
+                    <h2 class="text_shadows">BARDHAMAN</h2>
+                    <div class="price">
+                        Local Travels, and Cars for hire.
+                        <span class="glow2">School Bus Services from any corner of Bardhaman</span>
+                        To know more, Contact us ...
+                    </div>
+                    <a href="#contact">Contact Us</a>
+                </div>
+            </div>
             <div data-src="images/darjeeling.jpg" style="background: no-repeat center; background-size: cover;">
                 <div class="caption fadeIn">
                     <h2 class="text_shadows">DARJEELING</h2>
                     <div class="price">
                         2 nights, 3 days.
                         <span class="glow">₹ 4500</span>
-                        To know more, Contact us ...
                     </div>
                     <a href="#contact">Contact Us</a>
                 </div>
@@ -201,7 +210,7 @@
             <h2 class="title">Book a Tour</h2>
             <div class="book-content">
                 <div class="column left">
-                    <img src="https://source.unsplash.com/random/?travel" alt="">
+                    <img src="https://source.unsplash.com/random/?wanderlust" alt="">
                 </div>
                 <div class="column right">
                     <div class="text">Enjoy the thrills of travelling with Us !!!</div>
@@ -210,7 +219,7 @@
                         <div class="elem-group">
                             <label for="destination">Your destination</label>
                             <input type="text" id="destination" name="visitor_name" placeholder="Darjeeling" pattern=[A-Z\sa-z]{3,20} required>
-                          </div>
+                        </div>
                         <div class="elem-group">
                             <label for="name">Your Name</label>
                             <input type="text" id="name" name="visitor_name" placeholder="John Doe" pattern=[A-Z\sa-z]{3,20} required>
@@ -266,6 +275,18 @@
 
     <!-- ratings section start -->
     <section class="ratings" id="ratings">
+        <div class="max-width">
+            <h2 class="title">Local Tours and Transportantion</h2>
+        </div>
+        <div class="content-ratings">
+            <p class="glow2">Our Services are <span class="typing"></span>.</p>
+            
+            <p>Booking a cab is surely a task! How many times have you struggled to book a taxi online, especially when the weather is weary and or you have an emergency? One is stalled for endless hours just waiting for one to say "your ride is on the way". We have a solution for all your problems, Just contact us, via email, or mobile, and we will be there to help you out.</p>
+            <p class="glow2">We provide school bus services for all Schools near Burdwan.</p>
+            
+            <p>Banerjee Travels offers the best car operators and drivers for every prime location near Burdwan to make your journey hassle-free. We ensure you an unforgettable experience while traveling with us. Customers can choose the cab from the different categories of Transportation.</p>
+        </div>
+        <a href="#contact">Contact US</a>
     </section>
 
     <!-- gallery section start -->
