@@ -68,12 +68,12 @@ $(document).ready(function(){
     });
 
     // typing text animation script
-    // var typed = new Typed(".typing", {
-    //     strings: ["Exquisite Hotels", "Quality food and drinks", "Safety and security", "Fastest Travels", "Memorable Adventures"],
-    //     typeSpeed: 100,
-    //     backSpeed: 60,
-    //     loop: true
-    // });
+    var typed = new Typed(".typing", {
+        strings: ["Comfortable", "Relaxing", "Hassle-free", "Secure", "Punctual", "Affordable", "Memorable"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    });
 
     // owl carousel script
     // $('.carousel').owlCarousel({
@@ -151,6 +151,12 @@ function loadMoreImages()
             nature_str += `<div class="image">
                             <img src ="images/gallery/adv${i}.jpeg" alt="">
                         </div>`
+            car_str += `<div class="image">
+                            <img src ="images/gallery/car${i}.jpeg" alt=""> 
+                        </div>`
+        }
+        for(let i = 10; i <= 12; i++)
+        {
             car_str += `<div class="image">
                             <img src ="images/gallery/car${i}.jpeg" alt=""> 
                         </div>`
