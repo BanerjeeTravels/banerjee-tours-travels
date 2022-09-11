@@ -525,6 +525,10 @@ section .title::after{
     font-weight: 500;
     margin: 10px 0 25px 0;
 }
+.services .serv-content .card p{
+    font-size: 0.8rem;
+    font-weight: 100;
+}
 
 /* gallery section styling */
 
@@ -602,9 +606,9 @@ section .title::after{
 
 /* ratings section styling */
 .ratings .title::after{
-    content: "Rate us";
+    content: "transportations for hire";
 }
-.ratings .carousel .card{
+/* .ratings .carousel .card{
     background: #222;
     border-radius: 6px;
     padding: 25px 35px;
@@ -652,6 +656,54 @@ section .title::after{
 }
 .ratings .carousel .card:hover img{
     border-color: #fff;
+} */
+.ratings .content-ratings{
+    padding: 2%;
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    border: var(--color-tertiary) 1px solid;
+    border-radius: 10px;
+}
+.ratings .content-ratings p
+{
+    margin: 10px;
+    padding: 10px;
+}
+.ratings .content-ratings:hover
+{
+    transform: scale(1.05);
+    border-width: 4px;
+    cursor: pointer;
+    transition: ease-in-out 0.5s;
+}
+.ratings a{
+    display: inline-block;
+    margin: 0;
+    position: relative;
+    background: #FF4D4D;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 16px;
+    margin-top: 30px;
+    left: calc(50% - 70px);
+    margin-bottom: -100px;
+    border-radius: 6px;
+    border: 2px solid #FF4D4D;
+    transition: all 0.3s ease;
+}
+.ratings a:hover{
+    color: #FF4D4D;
+    background: none;
 }
 .owl-dots{
     text-align: center;
@@ -674,11 +726,11 @@ section .title::after{
 .owl-dot:hover{
     background: #FF4D4D!important;
 }
-.ratings .max-width{
+/* .ratings .max-width{
     position: relative;
 }
 .ratings .max-width a{
-    /* display: inline-block; */
+    display: inline-block;
     margin: 0;
     position: absolute;
     top: 105%;
@@ -698,7 +750,7 @@ section .title::after{
 .ratings .max-width a:hover{
     color: #FF4D4D;
     background: none;
-}
+} */
 
 /* contact section styling */
 .contact .title::after{
